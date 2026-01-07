@@ -1,11 +1,12 @@
 import Hero from "./sections/Hero";
-
+import ShowcaseSection from "./sections/ShowcaseSection";
+import NavBar from "./components/NavBar.jsx";
 
 const App = () => (
     <>
-        {/*<Navbar />*/}
+        <NavBar />
         <Hero />
-        {/*<ShowcaseSection />*/}
+        <ShowcaseSection />
         {/*<LogoShowcase />*/}
         {/*<FeatureCards />*/}
         {/*<Experience />*/}
