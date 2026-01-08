@@ -88,7 +88,7 @@ const Contact = () => {
                                         value={form.message}
                                         onChange={handleChange}
                                         placeholder="How can I help you?"
-                                        rows="5"
+                                        rows="6"
                                         required
                                     />
                                 </div>
