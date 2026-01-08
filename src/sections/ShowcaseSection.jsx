@@ -47,37 +47,50 @@ const AppShowcase = () => {
         <div id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">
                 <div className="showcaselayout">
+                    {/* PROJECT 1: MacBook */}
                     <div ref={rydeRef} className="first-project-wrapper">
-                        <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde App Interface" />
-                        </div>
-                        <div className="text-content">
-                            <h2>
-                                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                called Ryde
+                        <a href="https://macbook-clone-landing-page.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <div className="image-wrapper clickable-card" style={{ backgroundColor: '#000', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <img
+                                    src="/images/macbook_website.png"
+                                    alt="Ryde App Interface"
+                                    style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                />
+                            </div>
+                        </a>
+
+                        <div className="text-content" style={{ marginTop: '10px' }}>
+                            <h2 className="text-white font-bold" style={{ marginBottom: '8px', lineHeight: '1.2' }}>
+                                MacBook: Boosting Sales through Interactive 3D Product Experiences
                             </h2>
-                            <p className="text-white-50 md:text-xl">
-                                An app built with React Native, Expo, & TailwindCSS for a fast,
-                                user-friendly experience.
+                            <p className="text-white-50 md:text-xl" style={{ marginTop: '0' }}>
+                                I integrated interactive 3D models that allow customers to engage
+                                directly with products, significantly increasing conversion rates.
                             </p>
                         </div>
                     </div>
 
                     <div className="project-list-wrapper overflow-hidden">
+                        {/* PROJECT 2: Library Platform */}
                         <div className="project" ref={libraryRef}>
-                            <div className="image-wrapper bg-[#FFEFDB]">
-                                <img
-                                    src="/images/project2.png"
-                                    alt="Library Management Platform"
-                                />
-                            </div>
-                            <h2>The Library Management Platform</h2>
+                            <a href="https://cocktail-landing-five.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                <div className="image-wrapper clickable-card bg-[#FFEFDB]">
+                                    <img
+                                        src="/images/cocktail.png"
+                                        alt="Library Management Platform"
+                                    />
+                                </div>
+                            </a>
+                            <h2>Cocktail Bar Website</h2>
                         </div>
 
+                        {/* PROJECT 3: YC Directory */}
                         <div className="project" ref={ycDirectoryRef}>
-                            <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/project3.png" alt="YC Directory App" />
-                            </div>
+                            {/*<a href="https://your-yc-link.vercel.app" target="_blank" rel="noopener noreferrer">*/}
+                                <div className="image-wrapper clickable-card bg-[#FFE7EB]">
+                                    <img src="/images/project3.png" alt="YC Directory App" />
+                                </div>
+                            {/*</a>*/}
                             <h2>YC Directory - A Startup Showcase App</h2>
                         </div>
                     </div>

@@ -30,8 +30,8 @@ const words = [
 
 const counterItems = [
     { value: 4, suffix: "+", label: "Years of Experience" },
-    { value: 60, suffix: "+", label: "Satisfied Clients" },
-    { value: 80, suffix: "+", label: "Completed Projects" },
+    { value: 20, suffix: "+", label: "Satisfied Clients" },
+    { value: 35, suffix: "+", label: "Completed Projects" },
     { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -135,39 +135,36 @@ const techStackIcons = [
 
 const expCards = [
     {
-        review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+        review: "Umais's integration of 3D models into our laptop store completely transformed the shopping experience. His ability to blend high-end performance with interactive visuals is unmatched.",
+        imgPath: "/public/images/person.png",
+        logoPath: "/public/images/devices.png",
+        title: "3D Frontend Developer",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Integrated interactive 3D laptop models using Three.js and React Three Fiber, allowing users to inspect hardware from every angle.",
+            "Optimized 3D asset delivery to ensure fast load times and smooth 60FPS performance on both mobile and desktop.",
+            "Developed a custom hardware configurator that updates the 3D model in real-time based on user-selected specs.",
         ],
     },
     {
-        review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
+        review: "Umais brought our cocktail bar's brand to life with fluid animations and a sophisticated UI. The storytelling aspect of the site has significantly increased our customer engagement.",
+        imgPath: "/public/images/person.png",
+        logoPath: "/public/images/devices.png",
+        title: "Creative Web Developer",
+        responsibilities: [
+            "Architected a fully animated, immersive web experience using GSAP and Framer Motion for scroll-triggered storytelling.",
+            "Designed and implemented complex SVG transitions and liquid-motion effects to reflect the premium nature of the brand.",
+            "Ensured seamless responsiveness and accessibility across all creative layouts and custom navigation menus.",
+        ],
+    },
+    {
+        review: "The grocery platform Umais built is robust and incredibly user-friendly. He successfully handled the complexity of real-time inventory and secure checkout flows with ease.",
+        imgPath: "/public/images/person.png",
+        logoPath: "/public/images/devices.png",
         title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
-        ],
-    },
-    {
-        review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
-        responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Built a comprehensive e-commerce grocery store featuring real-time stock management and smart search filters.",
+            "Integrated secure Stripe payment gateways and automated order tracking systems for a seamless user journey.",
+            "Developed a high-performance backend to manage thousands of SKUs and concurrent user sessions during peak hours.",
         ],
     },
 ];
@@ -192,42 +189,42 @@ const testimonials = [
         name: "Esther Howard",
         mentions: "@estherhoward",
         review:
-            "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+            "I can’t say enough good things about Umais. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
         imgPath: "/images/client1.png",
     },
     {
         name: "Wade Warren",
         mentions: "@wadewarren",
         review:
-            "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+            "Working with Umais was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
         imgPath: "/images/client3.png",
     },
     {
         name: "Guy Hawkins",
         mentions: "@guyhawkins",
         review:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+            "Collaborating with Umais was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Umais's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Umais is the ideal partner.",
         imgPath: "/images/client2.png",
     },
     {
         name: "Marvin McKinney",
         mentions: "@marvinmckinney",
         review:
-            "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+            "Umais was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
         imgPath: "/images/client5.png",
     },
     {
         name: "Floyd Miles",
         mentions: "@floydmiles",
         review:
-            "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+            "Umais’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
         imgPath: "/images/client4.png",
     },
     {
         name: "Albert Flores",
         mentions: "@albertflores",
         review:
-            "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+            "Umais was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
         imgPath: "/images/client6.png",
     },
 ];
@@ -236,18 +233,17 @@ const socialImgs = [
     {
         name: "insta",
         imgPath: "/images/insta.png",
+        url: "https://www.instagram.com/maissi.sheikh/",
     },
     {
         name: "fb",
         imgPath: "/images/fb.png",
+        url: "https://www.facebook.com/maissi.imran.54/",
     },
     {
         name: "x",
         imgPath: "/images/x.png",
-    },
-    {
-        name: "linkedin",
-        imgPath: "/images/linkedin.png",
+        url: "https://x.com/Maissi74739",
     },
 ];
 

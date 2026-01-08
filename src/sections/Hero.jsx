@@ -50,10 +50,17 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
 
-                        <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Hi, I’m Muhammad umais, a Software developer based in Pakistan with a passion for
-                            code.
-                        </p>
+
+                            <p className="text-white font-bold text-[15px] sm:text-[20px] md:text-[25px] leading-tight">
+                                Hi, I’m <span className="text-[#915eff]">Muhammad Umais</span>
+                            </p>
+                            <p className="text-secondary mt-4 text-[14px] sm:text-[16px] md:text-[17px] max-w-md leading-relaxed relative z-10">
+                                I build high-converting digital products that solve business
+                                challenges and drive sales. <br className="sm:block hidden" />
+                                By combining reliable tech with stunning visuals, I help your
+                                brand stand out and turn visitors into loyal customers.
+                            </p>
+
 
                         <Button
                             text="See My Work"
